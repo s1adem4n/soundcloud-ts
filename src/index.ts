@@ -1,0 +1,30 @@
+export {
+  SoundCloudApiError,
+  SoundCloudClient,
+  type FetchLike,
+  type RequestArgs,
+  type RequestInput,
+  type SoundCloudClientOptions,
+} from './client'
+export { v2Endpoints, type V2EndpointKey, type V2Endpoints } from './v2/endpoints'
+export type {
+  Collection,
+  HttpMethod,
+  SearchTracksResponse,
+  SoundCloudActivity,
+  SoundCloudBadges,
+  SoundCloudComment,
+  SoundCloudLike,
+  SoundCloudPlayHistoryContext,
+  SoundCloudPlaylist,
+  SoundCloudPublisherMetadata,
+  SoundCloudStreamUrl,
+  SoundCloudTrack,
+  SoundCloudTrackMedia,
+  SoundCloudTranscoding,
+  SoundCloudTsubToken,
+  SoundCloudUser,
+  SoundCloudUserSummary,
+  SoundCloudVisual,
+  SoundCloudVisuals,
+} from './v2/types'
